@@ -1,2 +1,3 @@
-# linuxtips-descomplicandosql
+# linuxtips-descomplicandosq
+Vamos iniciarl
 aulas de SQL
