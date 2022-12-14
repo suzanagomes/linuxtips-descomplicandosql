@@ -62,7 +62,8 @@ AND datediff(dtEstimativaEntrega,dtAprovado)> 30
 
 -- COMMAND ----------
 
-select * 
+select *,
+        datediff(dtEstimativaEntrega,dtAprovado) as diffDatasAprovadoPrevisao
 from silver_olist.pedido
 where descSituacao in ('shipped','canceled')
 and year(dtPedido) = '2018'
