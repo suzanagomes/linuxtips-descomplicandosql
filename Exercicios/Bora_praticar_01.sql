@@ -35,17 +35,40 @@ WHERE descCategoria in ('perfumaria', 'bebes') and vlAlturaCm > 5
 
 -- COMMAND ----------
 
-Tempo de foco (where)
-1. Lista de pedidos com mais de um item.
+-- DBTITLE 1,1. Lista de pedidos com mais de um item.
 
-2. Lista de pedidos que o frete é mais caro que o item.
-3. Lista de pedidos que ainda não foram enviados.
-4. Lista de pedidos que foram entreques com atraso.
-5. Lista de pedidos que foram entregues com 2 dias de antecedência.
-6. Lista de pedidos feitos em dezembro de 2017 e entregues com atraso
-7. Lista de pedidos com avaliação maior ou igual que 4
-8. Lista de pedidos com 2 ou mais parcelas menores que R$20,00
 
 -- COMMAND ----------
 
+-- DBTITLE 1,2. Lista de pedidos que o frete é mais caro que o item
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,3. Lista de pedidos que ainda não foram enviados.
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,4. Lista de pedidos que foram entreques com atraso.
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,5. Lista de pedidos que foram entregues com 2 dias de antecedência.
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,6. Lista de pedidos feitos em dezembro de 2017 e entregues com atraso
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,7. Lista de pedidos com avaliação maior ou igual que 4
+
+
+-- COMMAND ----------
+
+-- DBTITLE 1,8. Lista de pedidos com 2 ou mais parcelas menores que R$20,00
 
