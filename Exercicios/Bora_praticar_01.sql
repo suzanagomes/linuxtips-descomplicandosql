@@ -72,3 +72,28 @@ WHERE descCategoria in ('perfumaria', 'bebes') and vlAlturaCm > 5
 
 -- DBTITLE 1,8. Lista de pedidos com 2 ou mais parcelas menores que R$20,00
 
+
+-- COMMAND ----------
+
+Tempo de foco (case)
+1. Selecione todos os pedidos e marque se houve atraso ou nas
+
+2. Selecione os pedidos e defina os grupos em uma nova coluna:
+• para frete inferior à 10%: '10%'
+• para frete entre 10% e 25%: '10% a 25%
+• para frete entre 25% e 50%: 25% a 50%*
+• para frete maior que 50%: '+50%
+
+-- COMMAND ----------
+
+1. Selecione a tabela olist. produto :
+o Crie uma coluna nova chamada 'descNovaCategoria' segu
+i. agrupe 'alimentos' e 'alimentos bebidas' em 'alimento
+A LINUXTIP
+ii. agrupe 'artes' e 'artes e artesanato' em 'artes'
+ill. agrupe todas categorias de construção em uma única categoria
+chamada 'construção'
+o Cria uma coluna nova chamada 'desPeso'
+i. para peso menor que 2kg: 'leve ii. para peso entre 2kg e 5kg: 'médio'
+ii. para peso entre 5kg e 10kg: 'pesado
+iv. para peso maior que 10kg: 'muito pesado'
